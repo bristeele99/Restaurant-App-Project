@@ -1,0 +1,57 @@
+.MenuList {
+    background-color: var(--tan-1);
+     /* border-right: 0.1vmin solid white; */
+    border-radius: 2vmin;
+    margin: 1vmin 8vmin;
+    padding: 2vmin;
+   
+
+    
+}
+    .MenuList {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3vmin;
+      padding: 2vmin;
+      color: var(--text-light);
+      background-color: var(--white);
+      border: 0.1vmin solid var(--tan-3);
+      border-radius: 1vmin;
+      font-size: 4vmin;
+    }
+    
+    
+    
+  .MenuList .description{
+   font-size: 12px;
+  }
+
+    .MenuList .add {
+      float: right;
+      padding: 6px 10px;
+      background-color: #648565; /* Green background color */
+      color:#E8EEDF; /* White text color */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      font: bold;
+      margin: 6px;
+      
+    }
+    
+    .MenuList .add:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+    
+    .MenuList.add:active {
+      background-color: #71801f; /* Darker green on click */
+    }
+    
+    .MenuList .name {
+      font-size: 1.8vw;
+      color: black;
+    }
+  

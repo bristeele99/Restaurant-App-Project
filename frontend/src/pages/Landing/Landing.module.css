@@ -1,0 +1,22 @@
+.img{
+     width:100%;
+    height:auto;
+}
+
+.group {
+    font-family:'Gill Sans MT';
+}
+
+.p { 
+    text-align: center;
+    line-height: 2;
+    padding-top: 15px;
+    font-size:larger;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.h1 {
+    text-align: center;
+    margin-top: 2em;
+}

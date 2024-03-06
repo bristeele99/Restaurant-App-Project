@@ -1,0 +1,87 @@
+/* .MenuListItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vmin;
+    padding: 2vmin;
+    color: var(--text-light);
+    background-color: var(--white);
+    border: 0.1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+    font-size: 4vmin;
+  }
+  
+  .MenuListItem .img {
+    height: 8vw;
+    width: 8vw;
+    font-size: 4vw;
+    background-color: var(--tan-1);
+    border: 0.1vmin solid var(--tan-3);
+    border-radius: 1vmin;
+  }
+  
+  .MenuListItem .buy {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MenuListItem .buy span {
+    font-size: 1.7vw;
+    text-align: center;
+    color: var(--text-light);
+  }
+  
+  .MenuListItem .name {
+    font-size: 4vw;
+    text-align: center;
+    color: var(--text-light);
+  }
+   */
+
+   .MenuListItem {
+    background-color: var(--tan-1);
+     /* border-right: 0.1vmin solid white; */
+    border-radius: 2vmin;
+    margin: 1vmin 8vmin;
+    padding: 2vmin;
+  }
+    /* .MenuListItem {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3vmin;
+      padding: 2vmin;
+      color: var(--text-light);
+      background-color: var(--white);
+      border: 0.1vmin solid var(--tan-3);
+      border-radius: 1vmin;
+      font-size: 4vmin;
+    }
+     */
+  .MenuListItem .description{
+   font-size: 12px;
+  }
+    .MenuListItem .add {
+      float: right;
+      padding: 6px 10px;
+      background-color: #648565; /* Green background color */
+      color:#E8EEDF; /* White text color */
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      font: bold;
+      margin: 6px;
+    }
+    .MenuListItem .add:hover {
+      background-color: #45A049; /* Darker green on hover */
+    }
+    .MenuListItem.add:active {
+      background-color: #71801F; /* Darker green on click */
+    }
+    .MenuListItem .name {
+      font-size: 1.8vw;
+      color: var(--text-light);
+    }

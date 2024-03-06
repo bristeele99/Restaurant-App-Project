@@ -1,0 +1,27 @@
+.aboutContainer{
+    display:flex;
+    
+}
+
+.divContainer{
+    align-items: center;
+    height: 69vh;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+ .hours{
+    text-align: center;
+}
+
+.divContainer p{
+    text-align: center;
+    font-size: larger;
+    /* line-height: 50px; */
+    position: center;
+}
+
+.mapContainer{
+    align-items: center;
+}

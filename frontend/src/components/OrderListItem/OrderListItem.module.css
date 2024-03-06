@@ -1,0 +1,28 @@
+.OrderListItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3vmin;
+    padding: 2vmin;
+    color: #648565;
+    border-radius: 1vmin;
+    font-size: 2.3vmin;
+    cursor: pointer;
+  }
+  
+  .OrderListItem > div > div:first-child {
+    margin-bottom: 0.5vmin;
+  }
+  
+  .OrderListItem.selected {
+    border-color: #56dc5b;
+    color: #115713;
+    border-width: 0.2vmin;
+    cursor: default;
+  }
+  
+  .OrderListItem:not(.selected):hover {
+    border-color: #648565;
+    border-width: 0.2vmin;
+  }
