@@ -7,8 +7,18 @@ const path = require('path');
 const logger = require('morgan');
 const ensureLoggedIn = require('./config/ensureLoggedIn');
 // const checkRole = require('./config/checkRole')
+const cors = require('cors');
 
 const app = express();
+
+const corsOptions = {
+  origin: 'https://restaurant-app-bamjr.netlify.app',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true,
+};
+
+// Enable CORS with the specified options
+app.use(cors(corsOptions));
 
 app.use(logger('dev'));
 app.use(express.json());
