@@ -47,9 +47,10 @@ console.log('After API routes'); // Add this line
 // Catch-all route
 console.log('Before catch-all route'); // Add this line
 app.get("/*", function (req, res) {
-  console.log('Handling catch-all route'); // Add this line
-  res.sendFile(path.join(__dirname, "../frontend/build", "index.html"));
+  console.log('Handling catch-all route');
+  res.sendFile(path.join(process.cwd(), "frontend/build", "index.html"));
 });
+
 console.log('After catch-all route'); // Add this line
 
 // Configure to use port 3001 instead of 3000 during
