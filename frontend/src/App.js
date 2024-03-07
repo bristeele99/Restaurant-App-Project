@@ -62,7 +62,7 @@ function App() {
       <Route path="/menu" element={<CategoryMenu user={user} categories={categoriesRef.current} activeCat={activeCat} setActiveCat={setActiveCat} />} />
       <Route path="/menu/:categoryId" element={<MenuListItem menuItems={menuItems.filter((item) => item.category.name === activeCat)} />} />
       <Route path="/users" element={<Auth setUser={setUser} />} />
-      <Route path="/orders/new" element={<NewOrder user={user} setUser={setUser} />} />
+      <Route path="/orders/new" element={<NewOrder user={user} setUser={setUser} role={role}/>} />
     </>
   )}
   

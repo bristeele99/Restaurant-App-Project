@@ -7,8 +7,8 @@ import { Link, useNavigate } from 'react-router-dom';
 import MenuList from '../../components/MenuList/MenuList';
 import CategoryList from '../../components/CategoryList/CategoryList';
 import OrderDetail from '../../components/OrderDetail/OrderDetail';
-import UserLogOut from '../../components/UserLogOut/UserLogOut';
-import MenuListItem from '../../components/MenuListItem/MenuListItem';
+// import UserLogOut from '../../components/UserLogOut/UserLogOut';
+// import MenuListItem from '../../components/MenuListItem/MenuListItem';
 
 export default function NewOrder({ user, setUser }) {
   const [menuItems, setMenuItems] = useState([]);

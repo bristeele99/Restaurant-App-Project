@@ -6,7 +6,7 @@ export default function Footer() {
                 {/* <h2 className={styles.storeName}>Ramen Time</h2> */}
                 <div style={{display:"flex"}}>
                 <div>
-                <img src="https://res.cloudinary.com/dxh60x8dq/image/upload/v1709282323/Ramen%20Time%20Images/contact-us-icon-black-2_g4wfyk.png" style={{height: "30px", marginRight: "30px", marginTop:"7px"}} className={styles.phone}></img>
+                <img src="https://res.cloudinary.com/dxh60x8dq/image/upload/v1709282323/Ramen%20Time%20Images/contact-us-icon-black-2_g4wfyk.png" style={{height: "30px", marginRight: "30px", marginTop:"7px"}} className={styles.phone} alt="icons"></img>
                 </div>
                 <div>
                 <p>
@@ -14,7 +14,7 @@ export default function Footer() {
                </div>
                </div>
                 <div>
-                <a href="https://www.facebook.com/RamenTalkwilliamsburg" target="_blank"><img src="https://res.cloudinary.com/dxh60x8dq/image/upload/v1709275661/Ramen%20Time%20Images/icons8-facebook-50_fuaeot.png"></img>
+                <a href="https://www.facebook.com/RamenTalkwilliamsburg" ><img src="https://res.cloudinary.com/dxh60x8dq/image/upload/v1709275661/Ramen%20Time%20Images/icons8-facebook-50_fuaeot.png" alt="fb"></img>
                 </a>
                 </div> 
 
