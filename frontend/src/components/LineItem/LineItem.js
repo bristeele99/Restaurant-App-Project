@@ -2,7 +2,6 @@ import styles from "./LineItem.module.css";
 
 export default function LineItem({ lineItem, isPaid, handleChangeQty }) {
  
-  console.log(lineItem);
   return (
     <div className={styles.LineItem}>
       {/* <div className="flex-ctr-ctr">{lineItem.item.img}</div> */}

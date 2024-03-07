@@ -12,7 +12,6 @@ async function cart(req, res) {
     res.status(400).json({ msg: e.message });
   }
 }
-
 // Add an item to the cart
 async function addToCart(req, res) {
   try{
