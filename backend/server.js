@@ -1,3 +1,4 @@
+const cors = require('cors');
 require('dotenv').config();
 //connect to the database
 require("./config/database");
@@ -7,7 +8,6 @@ const path = require('path');
 const logger = require('morgan');
 const ensureLoggedIn = require('./config/ensureLoggedIn');
 // const checkRole = require('./config/checkRole')
-const cors = require('cors');
 
 const app = express();
 
