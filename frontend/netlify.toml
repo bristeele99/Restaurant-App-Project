@@ -1,4 +1,9 @@
 [[redirects]]
-from ="/*"
-to = "/index.html"
-status = 200
+  from = "/api/*"
+  to = "https://restaurant-app-project-2.onrender.com/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
