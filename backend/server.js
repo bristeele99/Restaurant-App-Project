@@ -48,7 +48,7 @@ console.log('After API routes'); // Add this line
 console.log('Before catch-all route'); // Add this line
 app.get("/*", function (req, res) {
   console.log('Handling catch-all route');
-  res.sendFile(path.join(process.cwd(), "frontend/build", "index.html"));
+  res.sendFile(path.join(process.cwd(), "frontend", "build", "index.html"));
 });
 
 console.log('After catch-all route'); // Add this line
