@@ -25,8 +25,11 @@ export default async function sendRequest(url, method = "GET", payload = null) {
   // Set credentials: 'include' to include cookies or HTTP authentication
   options.credentials = 'include';
 
-  const res = await fetch(url, options);
-  console.log(res);
+  // Update the URL to the correct absolute backend URL
+  const backendURL = 'https://restaurant-app-project-2.onrender.com'; // Replace with your Render backend URL
+  const absoluteURL = `${backendURL}${url}`;
+
+  const res = await fetch(absoluteURL, options);
   // res.ok will be false if the status code set to 4xx in the controller action
   if (res.ok) return res.json();
   throw new Error("Bad Request");
